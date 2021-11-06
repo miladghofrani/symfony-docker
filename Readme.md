@@ -14,9 +14,9 @@ Creating symfony-docker_php_1   ... done
 Creating symfony-docker_nginx_1 ... done
 ```
 
-4. Run `make composer_install` in your favorite web browser
-4. Open `http://localhost/api/doc` in your favorite web browser
-5. Run `make down` to stop the Docker containers.
+4. Run `make composer_install` to Install bundles and create vendor folder
+5. Open `http://localhost/api/doc` in your favorite web browser
+6. Run `make down` to stop the Docker containers.
 
 ## Credits
 
